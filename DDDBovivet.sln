@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDBovivet.Domain", "DDDBovivet.Domain", "{88A2FB44-3308-4A15-9D44-1C30BD581C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDBovivet.Tests", "DDDBovivet.Tests", "{553FDC9A-C5D7-4240-BC34-E1F256700842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDBovivet.Shared", "DDDBovivet.Shared", "{BDC0718B-CD63-411E-9F7F-950D9F111F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDBovivet.Console", "DDDBovivet.Console", "{7880785A-3114-4E6C-A01A-308195A36D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBovivet.Domain", "DDDBovivet.Domain\DDDBovivet.Domain.csproj", "{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBovivet.Console", "DDDBovivet.Console\DDDBovivet.Console.csproj", "{6662BDC3-29BB-4B22-8363-713457D5B474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBovivet.Shared", "DDDBovivet.Shared\DDDBovivet.Shared.csproj", "{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBovivet.Domain.Tests", "DDDBovivet.Domain.Tests\DDDBovivet.Domain.Tests.csproj", "{680636F6-3986-4C2E-95DB-586A67EA006C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{789C40FB-3C7F-44AE-8AD5-7DBB9DCD89E4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6662BDC3-29BB-4B22-8363-713457D5B474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6662BDC3-29BB-4B22-8363-713457D5B474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6662BDC3-29BB-4B22-8363-713457D5B474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6662BDC3-29BB-4B22-8363-713457D5B474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680636F6-3986-4C2E-95DB-586A67EA006C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680636F6-3986-4C2E-95DB-586A67EA006C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680636F6-3986-4C2E-95DB-586A67EA006C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680636F6-3986-4C2E-95DB-586A67EA006C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0} = {88A2FB44-3308-4A15-9D44-1C30BD581C59}
+		{6662BDC3-29BB-4B22-8363-713457D5B474} = {7880785A-3114-4E6C-A01A-308195A36D5B}
+		{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7} = {BDC0718B-CD63-411E-9F7F-950D9F111F91}
+		{680636F6-3986-4C2E-95DB-586A67EA006C} = {553FDC9A-C5D7-4240-BC34-E1F256700842}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D3DE8A7-16F7-40D8-88D0-8E3DFE69D3E7}
+	EndGlobalSection
+EndGlobal
