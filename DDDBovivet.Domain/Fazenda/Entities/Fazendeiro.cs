@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DDDBovivet.Shared.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace DDDBovivet.Domain.Fazenda.Entities
 {
-    public class Fazendeiro
+    public class Fazendeiro : Entity
+
     {
 
         public Fazendeiro(string nome, string sobrenome, string cnpj, string email)

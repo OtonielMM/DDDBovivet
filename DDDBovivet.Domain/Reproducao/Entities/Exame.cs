@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DDDBovivet.Domain.Reproducao.Enums;
 using DDDBovivet.Shared.Entities;
 
 namespace DDDBovivet.Domain.Reproducao.Entities

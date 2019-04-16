@@ -112,6 +112,10 @@
       <Project>{423F7C6C-D774-4722-8D5C-C1CEAA8B5CA0}</Project>
       <Name>DDDBovivet.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DDDBovivet.Shared\DDDBovivet.Shared.csproj">
+      <Project>{9BED6B4E-9CA5-4A6B-83CA-E5B70EB71AA7}</Project>
+      <Name>DDDBovivet.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

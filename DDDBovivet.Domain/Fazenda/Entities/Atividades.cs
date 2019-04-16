@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DDDBovivet.Shared.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DDDBovivet.Domain.Fazenda.Entities
 {
-    public class Atividades
+    public class Atividades : Entity
     {
 
         public Atividades(DateTime? expireDate)

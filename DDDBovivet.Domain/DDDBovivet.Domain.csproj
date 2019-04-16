@@ -112,13 +112,13 @@
     <Compile Include="Reproducao\Entities\Medicamento.cs" />
     <Compile Include="Reproducao\Entities\Veterinario.cs" />
     <Compile Include="Reproducao\Enums\ExameStatus.cs" />
-    <Compile Include="Reproducao\Repositories\AnimalRepository.cs" />
-    <Compile Include="Reproducao\Repositories\ExameRepository.cs" />
-    <Compile Include="Reproducao\Repositories\VeterinarioRepository.cs" />
+    <Compile Include="Reproducao\Repositories\IAnimalRepository.cs" />
+    <Compile Include="Reproducao\Repositories\IExameRepository.cs" />
+    <Compile Include="Reproducao\Repositories\IVeterinarioRepository.cs" />
     <Compile Include="Reproducao\ValueObjects\Email.cs" />
     <Compile Include="Reproducao\ValueObjects\Endereco.cs" />
     <Compile Include="Reproducao\ValueObjects\Nome.cs" />
-    <Compile Include="Reproducao\ValueObjects\Valor.cs" />
+    <Compile Include="Reproducao\ValueObjects\Preco.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Inseminacao\" />

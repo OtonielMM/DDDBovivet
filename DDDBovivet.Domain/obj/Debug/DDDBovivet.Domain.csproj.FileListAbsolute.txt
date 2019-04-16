@@ -1,0 +1,2 @@
+C:\Users\estud\Source\Repos\DDDBovivet\DDDBovivet.Domain\obj\Debug\DDDBovivet.Domain.csprojAssemblyReference.cache
+C:\Users\estud\Source\Repos\DDDBovivet\DDDBovivet.Domain\obj\Debug\DDDBovivet.Domain.csproj.CoreCompileInputs.cache
