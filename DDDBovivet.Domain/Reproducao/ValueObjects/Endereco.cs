@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DDDBovivet.Shared.ValueObject;
+using Flunt.Validations;
 
 namespace DDDBovivet.Domain.Reproducao.ValueObjects
 {
