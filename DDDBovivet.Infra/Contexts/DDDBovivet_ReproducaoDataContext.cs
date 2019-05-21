@@ -24,7 +24,10 @@ namespace DDDBovivet.Infra.Contexts
         protected override void OnModelCreating(DbModelBuilder modelBuilder) // sobreescrever o metodo de criação das tabelas
         {
             modelBuilder.Configurations.Add(new VeterinarioMap());
+            modelBuilder.Configurations.Add(new AnimalMap());
+            modelBuilder.Configurations.Add(new ExameMap());
         }
+
 
     }
 }

@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexts\DDDBovivet_ReproducaoDataContext.cs" />
+    <Compile Include="Mappings\AnimalMap.cs" />
+    <Compile Include="Mappings\ExameMap.cs" />
     <Compile Include="Mappings\VeterinarioMap.cs" />
     <Compile Include="Migrations\201904300146369_v2.cs" />
     <Compile Include="Migrations\201904300146369_v2.Designer.cs">

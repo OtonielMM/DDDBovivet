@@ -18,6 +18,8 @@ namespace DDDBovivet.Infra.Mappings
            // Property(x => x.Email.MailAdress).HasmaxLength(60);
             Property(x => x.Nome.Nome1).IsRequired().HasMaxLength(11).IsFixedLength();
             Property(x => x.Nome.Sobrenome).IsRequired().HasMaxLength(11).IsFixedLength();
+            Property(x => x.Email.EndEmail).IsRequired().HasMaxLength(45).IsFixedLength();
+            Property(x => x.Fone).IsRequired().HasMaxLength(15).IsFixedLength();
         }
     }
 }

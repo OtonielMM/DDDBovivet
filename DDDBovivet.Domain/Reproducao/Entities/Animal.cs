@@ -27,6 +27,7 @@ namespace DDDBovivet.Domain.Reproducao.Entities
         public string Brinco { get; private set; }
         public string Nome { get; private set; }
         public string Raca { get; private set; }
+        public string Sexo { get; set; }
         public decimal Valor { get; private set; }
         public decimal QtdeOnHand { get; private set; }
 

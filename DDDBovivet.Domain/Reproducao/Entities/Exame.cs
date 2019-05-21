@@ -24,7 +24,7 @@ namespace DDDBovivet.Domain.Reproducao.Entities
         public string Numero { get; private set; }
         public DateTime CreateDate { get; private set; }
         public ExameStatus Status { get; private set; }
-        public IReadOnlyCollection<ExameItem> Items => _items.ToArray();
+        public ICollection<ExameItem> Items => _items.ToArray();
 
         public void AddItem(ExameItem exameItem)
         {
