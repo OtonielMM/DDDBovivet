@@ -20,6 +20,7 @@ namespace DDDBovivet.Infra.Mappings
             Property(x => x.Status).IsRequired();
             HasMany(x => x.Items);
 
+
             //Property(x => x.Items[]).IsRequired().HasMaxLength(11).IsFixedLength();
         }
 
