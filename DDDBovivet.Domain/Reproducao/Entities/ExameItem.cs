@@ -12,7 +12,7 @@ namespace DDDBovivet.Domain.Reproducao.Entities
 
         public ExameItem(Animal animal)
         {
-            Animal = animal;
+            Animal1 = animal;
             Valor = animal.Valor;
             //Qtde = qtde;
 
@@ -23,7 +23,7 @@ namespace DDDBovivet.Domain.Reproducao.Entities
              */
         }
 
-        public Animal Animal { get; private set; }
+        public Animal Animal1 { get; private set; }
         public decimal Valor { get; private set; }
         //public decimal Qtde { get; private set; }
 

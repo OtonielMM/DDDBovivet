@@ -49,8 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contexts\DDDBovivet_ReproducaoAlternativo.cs" />
     <Compile Include="Contexts\DDDBovivet_ReproducaoDataContext.cs" />
     <Compile Include="Mappings\AnimalMap.cs" />
+    <Compile Include="Mappings\ExameItemMap.cs" />
     <Compile Include="Mappings\ExameMap.cs" />
     <Compile Include="Mappings\VeterinarioMap.cs" />
     <Compile Include="Migrations\201904300146369_v2.cs" />
@@ -59,6 +61,12 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AnimalRepository.cs" />
+    <Compile Include="Repositories\ExameRepository.cs" />
+    <Compile Include="Repositories\VeterinarioRepository.cs" />
+    <Compile Include="Repositories\VeterinarioRepositoryPersistence2.cs" />
+    <Compile Include="Transactions\IUow.cs" />
+    <Compile Include="Transactions\Uow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -79,5 +87,6 @@
       <DependentUpon>201904300146369_v2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

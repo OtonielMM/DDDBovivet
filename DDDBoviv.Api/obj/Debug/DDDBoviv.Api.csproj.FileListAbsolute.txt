@@ -1,0 +1,2 @@
+C:\Users\estud\Source\Repos\DDDBovivet\DDDBoviv.Api\obj\Debug\DDDBoviv.Api.csprojAssemblyReference.cache
+C:\Users\estud\Source\Repos\DDDBovivet\DDDBoviv.Api\obj\Debug\DDDBoviv.Api.csproj.CoreCompileInputs.cache
